@@ -30,8 +30,8 @@ Aplikasi ini sudah dilengkapi dengan file konfigurasi resmi `vercel.json` sehing
 ### Cara 2: Deploy Lewat Terminal / Vercel CLI
 Jika Anda mengunduh source code ke komputer Anda dan menggunakan terminal:
 ```bash
-# 1. Pastikan dependensi terinstall
-npm install
+# 1. Install dependensi
+npm install --legacy-peer-deps
 
 # 2. Jalankan Vercel CLI
 npx vercel
